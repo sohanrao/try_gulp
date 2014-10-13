@@ -6,8 +6,7 @@ var gulp = require('gulp'),
 	stylus = require('gulp-stylus'),
     uglify = require('gulp-uglify'),
     clean = require('gulp-rimraf'),
-    install = require('gulp-install'),
-    wiredep = require('wiredep').stream
+    install = require('gulp-install')
 
 // plugins
 var connect = require('gulp-connect');
